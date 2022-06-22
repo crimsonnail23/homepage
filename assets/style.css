@@ -27,7 +27,7 @@ body {
 
 }
 
-/* navigation elements start */
+/* header and navigation elements start */
 
 header {
 
@@ -72,11 +72,15 @@ header nav ul {
 
     list-style: none;
 
+    
+
     justify-content: space-between;
 
 }
 
 header nav ul li a {
+
+    list-style-type: none;
 
     padding: 10px;
 
@@ -85,12 +89,44 @@ header nav ul li a {
     text-shadow: 0 0 5px rgba(0,0,0, 0.5);    
 }
 
+header nav ul li a:link{
+
+    text-decoration: none;
+
+}
+
+
+header nav ul li a:visted{
+
+    text-decoration: none;
+
+}
 header nav ul li a:hover {
 
-    background-color: blue;
+    background-color: var(--heading-color);
 
     color: white;
 
     border-radius: 15px;
+
+    text-decoration: none;
+
+}
+
+header nav ul li a:active{
+
+    text-decoration: none;
+
+}
+
+/* header and navigation elements end */
+
+/*hero section start */
+
+.hero{
+
+    background-image: url(../assets/images/vash\ and\ chapel.jpg);
+
+    display: flex;
 
 }
