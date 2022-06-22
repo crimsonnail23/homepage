@@ -2,7 +2,7 @@
 
     --heading-color: rgb(64, 64, 212);
     
-    --subheading-color: magenta;
+    --subheading-color: white;
     
     --regular-text-color: lightblue;
 
@@ -39,11 +39,18 @@ header {
 
     justify-content: space-between;
 
+    position: -webkit-sticky;
+
     position: sticky;
 
-    background-image: url(../assets/images/vash\ and\ chapel.jpg);
+    background-image: url(../assets/images/cherry\ darling.jpg);
 
-    z-index: 9999;
+    background-size: cover;
+
+    background-attachment: fixed;
+
+
+    
 
 }
 
@@ -72,8 +79,6 @@ header nav ul {
 
     list-style: none;
 
-    
-
     justify-content: space-between;
 
 }
@@ -91,12 +96,16 @@ header nav ul li a {
 
 header nav ul li a:link{
 
+    color: var(--subheading-color);
+
     text-decoration: none;
 
 }
 
 
 header nav ul li a:visted{
+
+    color: var(--subheading-color);
 
     text-decoration: none;
 
@@ -105,7 +114,7 @@ header nav ul li a:hover {
 
     background-color: var(--heading-color);
 
-    color: white;
+    color: var(--subheading-color);
 
     border-radius: 15px;
 
@@ -114,6 +123,8 @@ header nav ul li a:hover {
 }
 
 header nav ul li a:active{
+
+    color: var(--subheading-color);
 
     text-decoration: none;
 
@@ -125,7 +136,27 @@ header nav ul li a:active{
 
 .hero{
 
-    background-image: url(../assets/images/vash\ and\ chapel.jpg);
+    background-image: url(../assets/images/cherry\ darling.jpg);
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+    
+    background-size: cover;
+
+
+    align-items: flex-start;
+
+    background-attachment: fixed;
+
+    background-position: 100;
+
+    height: 1000px;
+}
+
+#about-me{
 
     display: flex;
 
