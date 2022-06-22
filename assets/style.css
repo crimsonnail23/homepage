@@ -27,6 +27,8 @@ body {
 
 }
 
+/* navigation elements start */
+
 header {
 
     color: var(--heading-color);
@@ -41,11 +43,54 @@ header {
 
     background-image: url(../assets/images/vash\ and\ chapel.jpg);
 
+    z-index: 9999;
+
 }
 
 header h1 {
 
     margin: 15px;
 
+    text-shadow: 0 0 5px rgba(0,0,0, 0.5);
+
+}
+
+header nav {
+
+margin: 5px;    
+
+
+}
+
+header nav ul {
+
+    display:flex;
+
+    flex-wrap: wrap;
+
+    font-size: 1.0vw;
+
+    list-style: none;
+
+    justify-content: space-between;
+
+}
+
+header nav ul li a {
+
+    padding: 10px;
+
+    margin: 15px;
+
+    text-shadow: 0 0 5px rgba(0,0,0, 0.5);    
+}
+
+header nav ul li a:hover {
+
+    background-color: blue;
+
+    color: white;
+
+    border-radius: 15px;
 
 }
