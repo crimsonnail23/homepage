@@ -1,14 +1,51 @@
 :root {
 
-    --heading-color: yellow;
+    --heading-color: rgb(64, 64, 212);
     
     --subheading-color: magenta;
     
     --regular-text-color: lightblue;
 
+    
+
 }
 
 * {
+
+    margin: 0;
+    
+    padding: 0;
+
+    box-sizing: border-box;
+
+
+}
+
+body {
+
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+header {
+
+    color: var(--heading-color);
+
+    background-color:black;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    position: sticky;
+
+    background-image: url(../assets/images/vash\ and\ chapel.jpg);
+
+}
+
+header h1 {
+
+    margin: 15px;
 
 
 }
