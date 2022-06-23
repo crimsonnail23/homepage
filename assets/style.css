@@ -69,13 +69,14 @@ header nav {
 margin: 5px;    
 
 
+
 }
 
 header nav ul {
 
-    display:flex;
+    display: flex;
 
-    flex-wrap: wrap;
+    flex-wrap: flex;
 
     font-size: 1.0vw;
 
@@ -84,6 +85,8 @@ header nav ul {
     justify-content: space-between;
 
 }
+
+
 
 header nav ul li a {
 
@@ -96,6 +99,7 @@ header nav ul li a {
     text-shadow: 0 0 5px rgba(0,0,0, 0.5);    
 
     border-bottom: 5px solid white;
+    
 }
 
 header nav ul li a:link{
@@ -163,88 +167,30 @@ header nav ul li a:active{
 }
 
 
+.information {
 
-#about-me{
+    padding: 100px;
 
-    display: flex;
+    display: block;
 
-    color: var(--heading-color);
-
-    background-color: white;
-
-}
-
-h2{
-
-    display: flex;
-
-    font-size:30px;
-
-    padding: 5px 10px;
-
-    border-right: 10px solid var(--heading-color);
-
-}
-
-.bio {
-
-    font-size: 20px;
-
-    text-align: right;
-}
-
-#work {
-    display: flex;
-
-    align-items: left;
-
-    justify-content: left;
-
-
-}
-
-#contact-me{
-
-    display: flex;
-
-    align-items: left;
-
-    justify-content: left;
-}
-
-@media screen and (max-width: 980px) {
-
-    header {
-      
-      padding-bottom: 0;
-      
-      justify-content: left;
-
-      position: relative;
     }
 
+#about-me {
 
-header h1 {
-      
-    width: 100%;
-    
-    text-align: left;
-    
-  }
+    display:flex;
 
-  header nav ul {
-    
-    margin-top: 20px;
-    
-    width: 100%;
-    
-    justify-content: right;
-  }
-
-  header nav ul li a {
-    font-size: 20px;
-
-    text-align: right;
-
-  }
 }
+
+#work{
+
+    display: flex;
+
+}
+
+#contact-me {
+
+    display:flex;
+
+}
+
+
