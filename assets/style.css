@@ -166,31 +166,136 @@ header nav ul li a:active{
     height: 1000px;
 }
 
+/*hero secion end*/
+
+/* information section that holds the three main parts*/
 
 .information {
 
-    padding: 100px;
-
-    display: block;
-
-    }
-
-#about-me {
-
-    display:flex;
-
-}
-
-#work{
+    padding: 50px;
 
     display: flex;
 
+    flex-direction: column;
+
+    flex-wrap: wrap;
+
+    background-color: black;
+
+    
+    
+    }
+
+/*information section ends*/
+
+/*infoPiece class id that applies changes to the About Me, Works, and Contact section divs */
+
+.infoPiece {
+
+    width: 80%;
+    
+    margin: 100px auto;
+
+    display: flex;
+
+    align-items: center;
+
+    color: var(--heading-color);
+   
+}    
+
+
+/*about me section start */
+
+#about-me h2{
+ margin-right: 150px;
+    
 }
 
-#contact-me {
+/*about me section end */
 
+/* work section start */
+
+.work {
+
+    display: flex;
+}
+
+#work h2{
+
+    margin-right: 164px;
+
+}
+
+.run-buddy{
+    color: var(--regular-text-color);
+    
     display:flex;
 
+
+
+
 }
+
+.run-buddy img{
+
+    max-height: 500px;
+    
+    max-width:500px;
+    
+    border: 5px solid white;
+}
+
+.run-buddy p{
+
+    position: relative;
+    right:150px;
+    top: 10px;
+
+}
+
+.horiseon img {
+
+    max-height: 300px;
+
+    max-width: 300px;
+
+    border: 5px solid white;
+}
+
+.horiseon p {
+
+    position: relative;
+
+    bottom: 205px;
+
+    left:150px;
+    
+    color: var(--regular-text-color);
+
+}
+
+/* work section end */
+
+
+/*bio section start*/
+.bio{
+
+    color: var(--regular-text-color);
+
+}
+
+/*bio section end*/
+
+/*contact section start*/
+
+#contact-me h2 {
+
+    margin-right: 73px;
+
+}
+
+
+/*contact section end */
 
 
