@@ -37,6 +37,8 @@ header {
 
     display: flex;
 
+    flex-wrap: wrap;
+
     justify-content: space-between;
 
     position: -webkit-sticky;
@@ -216,9 +218,11 @@ header nav ul li a:active{
 
 /* work section start */
 
-.work {
+#work {
 
     display: flex;
+
+    flex-wrap: wrap;
 }
 
 #work h2{
@@ -227,51 +231,30 @@ header nav ul li a:active{
 
 }
 
-.run-buddy{
-    color: var(--regular-text-color);
-    
-    display:flex;
+.picture-1{
 
 
 
+    width: 50%;
 
+    flex-wrap: wrap;
+
+    margin: 25px;
+
+    flex-grow: 3;
 }
 
-.run-buddy img{
+.picture-2{
 
-    max-height: 500px;
-    
-    max-width:500px;
-    
-    border: 5px solid white;
-}
 
-.run-buddy p{
 
-    position: relative;
-    right:150px;
-    top: 10px;
+    width: 25%;
 
-}
+    flex-wrap:wrap;
 
-.horiseon img {
+    margin: 25px;
 
-    max-height: 300px;
-
-    max-width: 300px;
-
-    border: 5px solid white;
-}
-
-.horiseon p {
-
-    position: relative;
-
-    bottom: 205px;
-
-    left:150px;
-    
-    color: var(--regular-text-color);
+    flex-shrink: 1;
 
 }
 
@@ -299,3 +282,115 @@ header nav ul li a:active{
 /*contact section end */
 
 
+/* for media screens 980px and smaller*/
+@media screen and (max-width: 980px){
+
+
+    header {
+      
+        padding-bottom: 0;
+        
+       position: relative;       
+  
+        
+      }
+    
+      header h1 {
+        
+        width:100%;
+        
+        text-align: center;
+        
+      }
+    
+      header nav ul {
+        
+        margin-top: 20px;
+        
+        
+
+        margin-bottom: 20px;
+        
+     
+      }
+    
+      header nav ul li a {
+        font-size: 20px;
+  
+      }
+
+#work {
+    flex-wrap: wrap;
+
+}
+
+
+}
+
+
+/*for media screens 768 and smaller*/
+@media screen and (max-width: 768){
+
+.picture-1{
+
+
+
+    width:30%;
+
+}
+
+.picture-2{
+
+ width:25%;
+
+}
+
+
+}
+
+/*for media screens 575px and smaller */
+
+@media screen and (max-width: 575){
+
+    body{ 
+
+        width:100%;
+    }
+
+    .header{
+
+        padding:0px;
+        width:100%;
+
+    }
+
+    .hero{
+
+        width:100%;
+
+    }
+
+    nav{
+
+        flex:0 100%;
+
+}
+
+    .infoPiece{
+        padding:0px;
+
+    }
+
+    #work{
+
+        display: flex;
+    }
+
+    .picture-1{
+
+
+        width:25%;
+    }
+
+
+}
