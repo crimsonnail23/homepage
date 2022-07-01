@@ -8,4 +8,4 @@ you will see all the projects I've completed.
 
 Here is a quick look at the portfolio I created:
 
-![alt text](assets/images/screenshot.jpg)
+![alt text](./assets/images/screenshot.jpg)
