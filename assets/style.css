@@ -33,6 +33,9 @@ html,body
 body {
 
     font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(red, magenta);
+    height: 100vh;
+    
 
 }
 
@@ -53,8 +56,6 @@ header {
     position: -webkit-sticky;
 
     position: sticky;
-
-    background-image: url(../assets/images/cherry\ darling.jpg);
 
     background-size: cover;
 
@@ -157,24 +158,13 @@ header nav ul li a:active{
 
     color: var(--subheading-color);
 
-    background-image: url(../assets/images/cherry\ darling.jpg);
-
     display: flex;
 
     justify-content: center;
 
     flex-wrap: wrap;
     
-    background-size: cover;
-
-
     align-items: flex-start;
-
-    background-attachment: fixed;
-
-    background-position: 100;
-
-    height: 500px;
 }
 
 /*hero secion end*/
@@ -191,10 +181,6 @@ header nav ul li a:active{
 
     flex-wrap: wrap;
 
-    background-color: black;
-
-    
-    
     }
 
 /*information section ends*/
@@ -256,8 +242,6 @@ header nav ul li a:active{
 
 .picture-1{
 
-
-
     width: 50%;
 
     flex-wrap: wrap;
@@ -275,8 +259,6 @@ header nav ul li a:active{
 }
 
 .picture-2{
-
-
 
     width: 25%;
 
